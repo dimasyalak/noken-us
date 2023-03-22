@@ -1,7 +1,7 @@
 :root{
-	--primar: rgb(189, 115, 68);
-	--bg: rgba(40, 48, 75, 0.96);
-      background-color: rgb(139, 109, 20);
+	--primar: rgb(186, 115, 40);
+	--bg: rgba(77, 86, 104, 0.96);
+      background-color: rgb(20, 25, 78);
 }
      
 *{
@@ -23,9 +23,9 @@ body{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0.3rem 7%;
-      background-color: rgba(52, 48, 48, 0.8);
-	border-bottom: 1px solid #252321;
+      padding: 0 1rem 0 7%;
+      background-color: rgba(4, 4, 4, 0.8);
+	border-bottom: 2px solid #927613;
       position: fixed;
 	top: 0;
 	left: 0;
@@ -35,9 +35,11 @@ body{
 
 .navbar .navbar-logo{
       font-size: 2rem;
-      font-weight: 700;
+      font-weight:  700;
       color: #ffffff;
       font-style: italic;
+      padding-bottom: 2rem  2rem;
+      z-index: 9999;
 }
 .navbar .navbar-logo span{
       color: var(--primar)
@@ -80,19 +82,19 @@ body{
       min-height: 100vh;
       display: flex;
       align-items: center;
-      background-image: url(../img/printer.jpg);
       background-repeat: no-repeat;
-      background-size: 40rem  40rem;
-      background-position:right;
+      background-image: url(../img/mmm.jpg);
+      background-size:  90rem  40rem;
+      background-position: 40 20rem;
       padding: 1.4rem 0.8rem;
-      margin-top: 1rem;
-      font-size: 1.5rem;
+      margin-top: 2rem;
+      font-size: 1.9rem;
       
 }
 
 .hero .img {
-      border-radius: 10%;
-      width: 100%;
+      border-radius: 4%;
+      width: 20%;
       
 
 }
@@ -103,38 +105,45 @@ body{
       width: 100%;
       height: 30%;
       bottom: 0;
-      background: linear-gradient(0deg,rgb(87, 90, 91) 3%, rgba(173, 174, 90, 0)25%);
+      background: linear-gradient(0deg,rgb(81, 81, 113) 3%, rgba(139, 139, 139, 0)25%);
 
 
 }
 
 .hero .content{
       padding: 1.4rem 7%;
-      max-width: 60rem;
+      max-width: 600rem;
+}
+.hero .content h2{
+      padding: 5 4rem 3%;
+      max-width: 900rem;
+      text-align: center;
 }
 
 .hero .content h1{
-      font-size: 7rem;
-      color: #d07017;
-      text-shadow: 10px 5px 9px rgba(10, 129, 208, 0.315);
+      font-size: 9rem;
+      color: hsl(51, 100%, 34%);
+      text-shadow: 10px 5px 9px rgba(101, 226, 222, 0.315);
       line-height: 1;
       mix-blend-mode: difference;
       text-align: center;
+     
     
 
 }
 .hero .content h2{
       font-size: 4rem;
-      color: #52bae3;
-      text-shadow: 1px 1px 3px rgba(219, 216, 196, 0.8);
+      color: #e87e20;
+      text-shadow: 1px 1px 3px rgba(255, 229, 59, 0.8);
       line-height: 6rem;
       mix-blend-mode: difference;
       position: relative;
-      box-shadow: #3d44a9;
+      box-shadow: #c2c6f8;
+      max-width: 400;
       
 }
 .hero .content h3{
-      font-size: 4rem;
+      font-size: 2rem;
       margin-top: 1rem;
       line-height: 1.4;
       font-weight: 100;
@@ -145,12 +154,11 @@ body{
 }
 .hero .content p{
       font-size: 4rem;
-      margin-top: 1rem;
       line-height: 1.4;
       font-weight: 100;
       background: linear-gradient(0deg,rgba(31, 2, 3,) 3%, rgb(172, 127, 78));
       mix-blend-mode: difference;
-      color: #c70827;
+      color: #fcff54;
       text-align: center;
 }
 
@@ -224,22 +232,24 @@ body{
 }
 .menu .row .menu-card{
       text-align: center;
-      padding-bottom: 0 5rem;
+      padding-bottom: 5rem;
 }
-.menu .row  .menu-card h3{
-      margin: 1rem;
+.menu .row .menu-card h3{
+      margin-top: 2 7rem;
       display: inline-block;
-      padding: 1rem;
-      font-size: 0 1rem;
+      padding: 1rem 1rem;
+      font-size: 2.1rem;
       color: #fff;
       background-color: var(--primar);
       cursor: pointer;
-      border-radius: 1rem;
+      border-radius: 2rem;
 }
 
+
+
 .menu .row .menu-card img{
-      border-radius: 3%;
-      width: 50%;
+      border-radius: 15%;
+      width: 70%;
     
     
 }
